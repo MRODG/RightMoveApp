@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">RightMoveApp</string>
+
+    <string name="error_title_generic">Something went wrong</string>
+    <string name="error_message_generic">Please try again</string>
+
+    <string name="error_title_offline">No internet connection detected</string>
+    <string name="error_message_offline">Please ensure your phone has an active internet connection and try again.</string>
+
+    <string name="error_title_missing_prices">Prices unavailable</string>
+    <string name="error_message_missing_prices">Property prices are currently not available. Please try again</string>
+
+    <string name="activity_average_price_question">What is the average property price?</string>
+    <string name="activity_average_price_answer">£ %s</string>
+    <string name="activity_average_price_refresh_button">Refresh</string>
+
+    <string name="dialog_button_ok">OK</string>
+
+</resources>
