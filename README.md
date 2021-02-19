@@ -43,9 +43,9 @@ helper functions for working with Mockito in Kotlin
 ## Design Decisions
 I chose to use one activity to show the score the view with the answer, which observes Livedata objects in the ViewModels to get data or error sources. The ViewModels implement a callback interface I designed
 to make service calls in Service class (MVVM). Error sources and request progress indicators are managed in My BaseServiceViewModel and BaseServiceActivity class which  activities and viewmodels that manage 
-service calls can conveniently would extend so all these background processes can be managed centrally.
+service calls can conveniently would extend, so all these background processes can be managed centrally.
 
-Used a thin MVVM architecture layer for the purpose of easily illustrate the separation of concerns for the demo app. As the app grows so would the architecture layers where we could introduce repositories, 
+Used a thin MVVM architecture layer for the purpose of easily illustrating the separation of concerns for the demo app. As the app grows so would the architecture layers where we could introduce repositories, 
 local data sources, network managers etc..
 
 ## Some Notes
